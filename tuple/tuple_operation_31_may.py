@@ -21,8 +21,9 @@ print(mytuple)
 
 #delete items
 del mytuple
-print(mytuple)
 
+
+mytuple = ("apple", "banana", "cherry", "apple", "cherry")
 
 #loops in tuple
 for x in mytuple:
@@ -45,3 +46,11 @@ fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2 
 
 print(mytuple) 
+
+#find index of value
+print(mytuple.index("apple"))
+
+# count how many time number occure in tuple
+print(mytuple.count("apple"))
+
+
