@@ -67,7 +67,9 @@ my_list.reverse()
 print(my_list)
 
 #join list
-list_1=[1,2,3,4,5,6]
+list_1=[1,2,3,4,5,6,2,3,3,2]
 list_2=["A","s","d","f","g"]
 list_3=list_1+list_2
 print(list_3)
+
+print(list_1.count(2))
