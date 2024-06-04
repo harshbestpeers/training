@@ -9,6 +9,7 @@ print(str_1[0])
 for x in str_1: #looping through a string
     print(x,end="")
 
+# length of strings
 len_str=len(str_1)
 print("len of str:",len_str)
 
@@ -45,16 +46,19 @@ print(f'my name is harsh, i am {4*5} year old')
 txt = "We are the so-called \"Vikings\" from the north."
 
 #string methods
+
 print(str_1.capitalize()) #Converts the first character to upper case
-print(str_1.casefold())
-print(str_1.center(200))  
-print(str_1.count("we"))
-print(str_1.endswith("string"))  
-print(str_1.find("string"))
-print(str_1.index("string")) 
-print(str_1.isalnum())
-print(str_1.isalpha())  
-print(str_1.isdigit())
-print(str_1.isdecimal())
-print(str_1.islower())   
-print(str_1.isupper())
+print(str_1.casefold())   #Converts string into lower case
+print(str_1.center(200))  #Returns a centered string
+print(str_1.count("we"))  #Returns the number of times a specified value occurs in a string
+print(str_1.endswith("string"))   # Returns true if the string ends with the specified value
+print(str_1.find("string"))  #Searches the string for a specified value and returns the position of where it was found
+print(str_1.index("string"))  #Searches the string for a specified value and returns the position of where it was found
+print(str_1.isalnum())  #Returns True if all characters in the string are alphanumeric
+print(str_1.isalpha())  #Returns True if all characters in the string are in the alphabet
+print(str_1.isdigit())  #Returns True if all characters in the string are digits
+print(str_1.isdecimal())  # Returns True if all characters in the string are decimals
+print(str_1.islower())   #Returns True if all characters in the string are lower case
+print(str_1.isupper())   
+print(str_1.startswith("Hello"))
+print(str_1.splitlines())
