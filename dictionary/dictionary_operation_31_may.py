@@ -14,7 +14,7 @@ print(thisdict)
 
 #Accessing Items
 print(dict1["age"])
-print(dict1.get("age"))
+print(dict1.get("age")) #get value
 print(dict1.keys())
 print(dict1.values())
 print(dict1.items())
