@@ -56,7 +56,12 @@ myfamily = {
   "child3" : {
     "name" : "Linus",
     "year" : 2011
+  },
+  "child4" : {
+    "name" : "asd",
+    "year" : 2012
   }
+
 } 
 print(myfamily)
 print(myfamily["child1"]["name"])
