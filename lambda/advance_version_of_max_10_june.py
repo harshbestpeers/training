@@ -74,18 +74,27 @@ print(
 
 # example 8
 # print key of  dictionary by value list length
-test_dict = {'is': [1, 2], 'gfg': [3], 'best': [1, 3, 4]}
+test_dict = {"is": [1, 2], "gfg": [3], "best": [1, 3, 4]}
 print(min(test_dict, key=lambda ele: len(test_dict[ele])))
 
 
 # Example 9
 # min in list by dictionary value
-test_list = ['gfg', 'is', 'best']
-test_dict = {'gfg': 56, 'is': 12, 'best': 76}
+test_list = ["gfg", "is ", "best"]
+test_dict = {"gfg": 56, "is": 12, "best": 76}
 print(min(test_list, key=lambda ele: test_dict[ele]))
 
 
 # Example 10
 # print the key of dict who's value key is miximum
-nested_dict = {'a': {'key': 3}, 'b': {'key': 1}, 'c': {'key': 2}}
+nested_dict = {"a": {"key": 3}, "b": {"key": 1}, "c": {"key": 2}}
 print(max(nested_dict, key=lambda ele: nested_dict[ele]["key"]))
+
+
+"""Given a matrix, matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], write a
+nested list comprehension to transpose the matrix."""
+
+list = []
+m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+new = [[m[j][i] for j in range(len(m))] for i in range(len(m[0]))]
+print(new)
