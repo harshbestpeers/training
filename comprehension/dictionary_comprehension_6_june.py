@@ -28,7 +28,7 @@ print(young_person_dict)
 # if-else Conditional Dictionary Comprehension
 original_dict = {"harsh": 23, "raju": 12, "rajesh": 40, "ravindra": 15}
 new_dict = {k: ("you are eligible for vote" if v >= 18
-                else "not eligible for vote")
+            else "not eligible for vote")
             for (k, v) in original_dict.items()}
 print(new_dict)
 
