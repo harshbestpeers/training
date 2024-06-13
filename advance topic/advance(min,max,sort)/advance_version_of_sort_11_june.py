@@ -21,8 +21,7 @@ print(test_dict)
 # Example 4
 # Sort Dictionary by Value Difference
 test_dict = [
-    {"gfg": [34, 87]},
-    {"is": [10, 13]},
+    {"gfg": [34, 87]},{"is": [10, 13]},
     {"best": [19, 27]},
     {"for": [10, 50]},
     {"geeks": [15, 45]},
