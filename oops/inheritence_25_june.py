@@ -155,6 +155,7 @@ class Son(Father):
 s1 = Son("Prince", "Rampal", "Lal mani")
 print(s1.grandfather_name)
 s1.print_name()
+print(Father.__mro__)
 
 
 # 4) Hierarchical Inheritance
@@ -210,3 +211,4 @@ class Student3(Student1, School):
 object = Student3()
 object.func1()
 object.func2()
+print(Student3.__mro__)
